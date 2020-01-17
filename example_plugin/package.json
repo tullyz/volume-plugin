@@ -1,21 +1,21 @@
 {
-  "name": "example_plugin",
+  "name": "volume_plugin",
   "version": "1.0.0",
-  "description": "Example Plugin for Volumio2",
+  "description": "Volume Plugin for Volumio2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tullyz",
   "license": "ISC",
   "volumio_info": {
-    "prettyName": "Example Plugin",
+    "prettyName": "Volume Plugin",
     "icon": "fa-lightbulb-o",
-    "plugin_type": "music_service"
+    "plugin_type": "user_interface"
   },
   "dependencies": {
-    "fs-extra": "^0.28.0",
-    "kew": "^0.7.0",
-    "v-conf": "^1.4.0"
+    "node-mouse": "^0.0.2",
+    "socket.io-client": "^2.3.0",
+    "input-event": "^1.2.6"
   }
 }
